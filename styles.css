@@ -46,15 +46,26 @@ body {
 .page-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
 }
 
 form {
     background-color: white;
+    width: 100%;
 }
 
 .form-field {
     display: flex;
     flex-direction: column;
+}
+
+form>* {
     margin: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 100px;
 }
