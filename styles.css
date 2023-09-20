@@ -44,11 +44,9 @@ body {
 }
 
 .page-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 70%;
-    justify-content: center;
 }
 
 form {
@@ -68,4 +66,9 @@ form>* {
 .form-row {
     display: flex;
     gap: 100px;
+}
+
+.info-text,
+.account-submission {
+    flex: 1;
 }
