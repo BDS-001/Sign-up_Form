@@ -3,11 +3,13 @@ body {
     display: flex;
     padding: 0;
     margin: 0;
+    background-color: rgb(211, 211, 211);
 }
 
 .left-container {
     width: 30%;
     overflow: hidden;
+    min-width: 350px;
 }
 
 .left-container img {
@@ -27,6 +29,7 @@ body {
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
     width: 30%;
+    min-width: 350px;
     position: absolute;
     top: 150px;
 }
@@ -38,4 +41,20 @@ body {
 #odin-logo {
     height: 150px;
     margin: 10px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    background-color: white;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
