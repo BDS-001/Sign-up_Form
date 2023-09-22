@@ -3,5 +3,8 @@ submitButton.addEventListener('click', function(){
     const password = document.querySelector('#password')
     const confirmPassword  = document.querySelector('#confirmPassword')
 
-    console.log(password.value)
+    if (password.value != confirmPassword.value) {
+        const mismatch = document.querySelector('#password-mismatch')
+        mismatch.hidden = false
+    }
 })

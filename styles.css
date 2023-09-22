@@ -111,3 +111,11 @@ input:focus {
 label {
     font-size: small;
 }
+
+#password-mismatch {
+    color: rgb(204, 0, 0);
+}
+
+button:active {
+    transform: scale(0.95)
+}
