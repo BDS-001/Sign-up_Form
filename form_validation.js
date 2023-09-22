@@ -6,5 +6,10 @@ submitButton.addEventListener('click', function(){
     if (password.value != confirmPassword.value) {
         const mismatch = document.querySelector('#password-mismatch')
         mismatch.hidden = false
+    } else {
+        const form = document.querySelector('#account_creation_form')
+        form.submit();
     }
+
+
 })

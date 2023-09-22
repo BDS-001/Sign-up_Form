@@ -119,3 +119,7 @@ label {
 button:active {
     transform: scale(0.95)
 }
+
+.logo-container>h1 {
+    font-family: 'StormningRegular'; 
+}
